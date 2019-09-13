@@ -1,0 +1,14 @@
+services:
+
+  web:
+    git_url: 
+    git_branch: 
+    command: apache2-foreground
+    build_root: .
+    ports:
+      - container: 80
+        http: 80
+        https: 443
+
+databases:
+  - mysql

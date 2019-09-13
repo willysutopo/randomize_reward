@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="18" assertions="23" failures="0" errors="0" time="0.739047">
+    <testsuite name="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" tests="6" assertions="8" failures="0" errors="0" time="0.142308">
+      <testcase name="test_dailyreward_success_post" class="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" line="4" assertions="1" time="0.052089"/>
+      <testcase name="test_dailyreward_error_post" class="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" line="21" assertions="1" time="0.002688"/>
+      <testcase name="test_dailyreward_success_put" class="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" line="37" assertions="1" time="0.040334"/>
+      <testcase name="test_dailyreward_get" class="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" line="51" assertions="2" time="0.003494"/>
+      <testcase name="test_dailyreward_delete" class="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" line="69" assertions="1" time="0.041026"/>
+      <testcase name="test_dailyreward_again_get" class="Rest_dailyreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_dailyreward_test.php" line="82" assertions="2" time="0.002677"/>
+    </testsuite>
+    <testsuite name="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" tests="6" assertions="8" failures="0" errors="0" time="0.220776">
+      <testcase name="test_users_success_post" class="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" line="4" assertions="1" time="0.085134"/>
+      <testcase name="test_users_error_post" class="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" line="21" assertions="1" time="0.002572"/>
+      <testcase name="test_users_success_put" class="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" line="37" assertions="1" time="0.086021"/>
+      <testcase name="test_users_get" class="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" line="51" assertions="2" time="0.002733"/>
+      <testcase name="test_users_delete" class="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" line="69" assertions="1" time="0.041451"/>
+      <testcase name="test_users_again_get" class="Rest_user_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_user_test.php" line="82" assertions="2" time="0.002865"/>
+    </testsuite>
+    <testsuite name="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" tests="6" assertions="7" failures="0" errors="0" time="0.375963">
+      <testcase name="test_users_success_post" class="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" line="4" assertions="1" time="0.096107"/>
+      <testcase name="test_user_reward_success_post" class="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" line="21" assertions="1" time="0.088690"/>
+      <testcase name="test_user_reward_fail_repost" class="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" line="38" assertions="1" time="0.003603"/>
+      <testcase name="test_user_reward_success_delete" class="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" line="55" assertions="1" time="0.051473"/>
+      <testcase name="test_users_delete" class="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" line="69" assertions="1" time="0.133237"/>
+      <testcase name="test_users_again_get" class="Rest_userreward_test" file="/home/willy/Projects/ovotest/application/tests/controllers/Rest_userreward_test.php" line="82" assertions="2" time="0.002853"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
